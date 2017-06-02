@@ -36,7 +36,7 @@ LED Positioning
 
 A4 & A5/I2C Breakouts
 -------------------
-On the backside of the board you'll find four test points: <b>GND, A4, A5, and 5V</b>. You can solder a number of accessory sensors and parts to these pins to enhance your eyeball. For instance, you could add a [Real-Time Clock module](https://www.sparkfun.com/products/12708), and give your eyeball the ability to know what time it is, even if it looses power. Any 5V i2C or analog sensor can be added. The analog pins can also be used as digital pins to control other electronics. 
+On the backside of the board you'll find four test points: <b>GND, A4(SDA), A5(SCL), and 5V</b>. You can solder a number of accessory sensors and parts to these pins to enhance your eyeball. For instance, you could add a [Real-Time Clock module](https://www.sparkfun.com/products/12708), and give your eyeball the ability to know what time it is, even if it looses power. Any 5V i2C or analog sensor can be added. The analog pins can also be used as digital pins to control other electronics. 
 
 Notes About the Board
 ---------------------
