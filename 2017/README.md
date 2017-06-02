@@ -6,9 +6,19 @@
 
 This board uses an Atmega328p microcontroller (the same device in the Arduino Uno) and can be programmed with an FTDI serial adapter and the Arduino IDE. There is a DC/DC boost-converter (the PAM2401) to provide 5 volts from a single AA battery. On board are 10 addressable WS2812 LEDs (the same LEDs used on all Neopixel products). There is also an infrared (IR) transmitter/receiver pair that allows the boards to communicate with one another. A tactile button is also provided to switch through modes.
 
+Read more about the project [here](https://www.sparkfun.com/news/2398). 
+
 Hacking Your Eyeball
 =======================================
 This section will cover all the information you'll need to start hacking your eyeball.
+
+<p align="center">
+<img src = "https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/3/9/8/Propagand-eye-01.jpg
+">
+<img src = "https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/3/9/8/Propagand-eye-02.jpg
+">
+</p>
+
 
 Arduino IDE Settings
 ----------------------
