@@ -13,8 +13,11 @@ Hacking Your Eyeball
 This section will cover all the information you'll need to start hacking your eyeball.
 
 <p align="center">
-<img src = "https://cdn.sparkfun.com/assets/home_page_posts/2/3/9/8/Propagand-eye-01.jpg
-">
+<img src = "https://cdn.sparkfun.com/assets/home_page_posts/2/3/9/8/Propagand-eye-01.jpg">
+</p>
+
+<p align="center">
+<img src = "https://cdn.sparkfun.com/assets/home_page_posts/2/3/9/8/Propagand-eye-02.jpg">
 </p>
 Arduino IDE Settings
 ----------------------
