@@ -8,7 +8,7 @@ This board uses an Atmega328p microcontroller (the same device in the Arduino Un
 
 Hacking Your Eyeball
 =======================================
-This section will cover all the information you'll need to start hacking your eye via hardware, software or both.
+This section will cover all the information you'll need to start hacking your eyeball.
 
 Arduino IDE Settings
 ----------------------
@@ -19,7 +19,7 @@ Arduino IDE Settings
 Hardware Pin connections
 ------------------
 * Button Pin - D2
-* WS2812 LED Pin - D7
+* WS2812 (Neopixel) LED Pin - D7
 * IR_RX Pin - D8
 * IR_TX Pin - D9
 
@@ -48,7 +48,7 @@ You can use this board with the [Arduino IR Library](https://github.com/z3t0/Ard
   #else
   // Arduino Duemilanove, Diecimila, LilyPad, Mini, Fio, Nano, etc
   // ATmega48, ATmega88, ATmega168, ATmega328
-	//#define IR_USE_TIMER1   // tx = pin 9
+  //#define IR_USE_TIMER1   // tx = pin 9
   #define IR_USE_TIMER2 // tx = pin 3
 ```
 
@@ -58,7 +58,7 @@ Uncomment the line that says `pin 9`, and comment out the line that says `pin 3`
   #else
   // Arduino Duemilanove, Diecimila, LilyPad, Mini, Fio, Nano, etc
   // ATmega48, ATmega88, ATmega168, ATmega328
-	#define IR_USE_TIMER1   // tx = pin 9
+  #define IR_USE_TIMER1   // tx = pin 9
   //#define IR_USE_TIMER2 // tx = pin 3
   ```
   
