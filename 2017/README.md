@@ -13,12 +13,15 @@ Hacking Your Eyeball
 This section will cover all the information you'll need to start hacking your eyeball.
 
 <p align="center">
-<img src = "https://cdn.sparkfun.com/assets/home_page_posts/2/3/9/8/Propagand-eye-01.jpg">
+<img src = "https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/3/9/8/Propagand-eye-01.jpg">
 </p>
 
 <p align="center">
-<img src = "https://cdn.sparkfun.com/assets/home_page_posts/2/3/9/8/Propagand-eye-02.jpg">
+<img src = "https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/3/9/8/Propagand-eye-02.jpg">
 </p>
+
+
+
 Arduino IDE Settings
 ----------------------
 * Arduino IDE Version - 1.6.8 (This code will only compile in 1.6.~ versions of Arduino, not the latest versions)
