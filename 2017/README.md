@@ -26,12 +26,12 @@ Hardware Pin connections
 LED Positioning 
 ----------------
 
-        5
+```     5
      4     6
   3           7
   2           8
      1     9
-        0
+        0```
 
 
 Notes About the Board
@@ -43,21 +43,21 @@ Using with the IR Library
 -----------------------
 
 You can use this board with the [Arduino IR Library](https://github.com/z3t0/Arduino-IRremote/blob/master/boarddefs.h). However, you will need to change one line of code in the library. There is a file call [boarddefs.h](https://github.com/z3t0/Arduino-IRremote/blob/master/boarddefs.h). In it, look for this section:
-
+```
   #else
   // Arduino Duemilanove, Diecimila, LilyPad, Mini, Fio, Nano, etc
   // ATmega48, ATmega88, ATmega168, ATmega328
 	//#define IR_USE_TIMER1   // tx = pin 9
   #define IR_USE_TIMER2 // tx = pin 3
-
+```
 Uncomment the line that says `pin 9`, and comment out the line that says `pin 3`. It should now look like this:
-
+```
   #else
   // Arduino Duemilanove, Diecimila, LilyPad, Mini, Fio, Nano, etc
   // ATmega48, ATmega88, ATmega168, ATmega328
 	#define IR_USE_TIMER1   // tx = pin 9
   //#define IR_USE_TIMER2 // tx = pin 3
-  
+  ```
 You should now be able to use the IR library with the Propagand-Eye. 
 
 License Information
