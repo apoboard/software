@@ -12,7 +12,7 @@ This section will cover all the information you'll need to start hacking your ey
 
 Arduino IDE Settings
 ----------------------
-* Arduino IDE Version - 1.6.8
+* Arduino IDE Version - 1.6.8 (This code will only compile in 1.6.~ versions of Arduino, not the latest versions)
 * Board - Arduino Uno
 * Baud Rate - 115200
 
