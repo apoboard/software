@@ -20,7 +20,15 @@ This section will cover all the information you'll need to start hacking your ey
 <img src = "https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/3/9/8/Propagand-eye-02.jpg">
 </p>
 
+FTDI Headers
+--------------------
+Before you can program your Propagand-Eye, you'll need to solder either some [right-angle headers](https://www.sparkfun.com/products/553) or [straight headers](https://www.sparkfun.com/products/116) to the FTDI port on your eyeball. 
 
+<p align="center">
+<img src = "https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/3/9/8/FTDI.png">
+</p>
+
+Then, you'll need a [5V FTDI Basic](https://www.sparkfun.com/products/9716) or similar 5V Serial-to-USB converter to program your eyeball with the [Arduino IDE](https://www.arduino.cc/en/Main/Software). 
 
 Arduino IDE Settings
 ----------------------
