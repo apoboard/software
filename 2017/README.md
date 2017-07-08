@@ -20,6 +20,10 @@ This section will cover all the information you'll need to start hacking your ey
 <img src = "https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/3/9/8/Propagand-eye-02.jpg">
 </p>
 
+---
+
+For assembly instructions, click [here](https://github.com/apoboard/hardware/blob/master/2017/FinalApoBoard2017Instructions.pdf)
+
 FTDI Headers
 --------------------
 Before you can program your Propagand-Eye, you'll need to solder either some [right-angle headers](https://www.sparkfun.com/products/553) or [straight headers](https://www.sparkfun.com/products/116) to the FTDI port on your eyeball. 
@@ -92,6 +96,8 @@ Uncomment the line that says `pin 9`, and comment out the line that says `pin 3`
   ```
   
 You should now be able to use the IR library with the Propagand-Eye. 
+
+
 
 License Information
 -------------------
